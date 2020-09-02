@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".Types_of_services">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_color"
+        >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="386dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="56dp"
+
+            android:text="SERVICES"
+            android:textColor="#fff"
+            android:textAlignment="center"
+
+            android:textSize="60sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.36"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/salon"
+            android:layout_width="185dp"
+            android:layout_height="140dp"
+
+            android:layout_marginTop="12dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/salon_foreground"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.929"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/electrician" />
+
+        <ImageButton
+            android:id="@+id/painter"
+            android:layout_width="185dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="156dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+
+            android:src="@mipmap/painter_foreground"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.929"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/electrician"
+            android:layout_width="185dp"
+            android:layout_height="162dp"
+
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/electrician_foreground"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.929"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/painter" />
+
+        <ImageButton
+            android:id="@+id/gardening"
+            android:layout_width="185dp"
+            android:layout_height="162dp"
+
+            android:background="@mipmap/gardening_foreground"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.929"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/salon"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageButton
+            android:id="@+id/carpenter"
+            android:layout_width="185dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="16dp"
+            android:background="@mipmap/carpenter_foreground"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toStartOf="@+id/gardening"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AC" />
+
+        <ImageButton
+            android:id="@+id/AC"
+            android:layout_width="185dp"
+            android:layout_height="139dp"
+            android:background="@mipmap/ac_foreground"
+
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:textSize="30sp"
+
+            app:layout_constraintEnd_toStartOf="@+id/salon"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="500dp" />
+
+        <ImageButton
+            android:id="@+id/appliances"
+            android:layout_width="185dp"
+            android:layout_height="162dp"
+            android:layout_marginBottom="12dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/appliances_foreground"
+
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/AC"
+            app:layout_constraintEnd_toStartOf="@+id/electrician"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+
+            android:id="@+id/plumber"
+            android:layout_width="185dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="156dp"
+            android:background="@mipmap/plumber_foreground"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+
+
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/appliances"
+            app:layout_constraintEnd_toStartOf="@+id/painter"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="419dp"
+            android:layout_height="53dp"
+            android:drawableLeft="@drawable/location_logo_foreground"
+
+            android:text="Location"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.571"
+            tools:layout_editor_absoluteX="-9dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</layout>

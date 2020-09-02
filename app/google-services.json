@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "12244949477",
+    "firebase_url": "https://river-nectar-287807.firebaseio.com",
+    "project_id": "river-nectar-287807",
+    "storage_bucket": "river-nectar-287807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12244949477:android:7c57a54376ca0d3f6f770c",
+        "android_client_info": {
+          "package_name": "com.example.trial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12244949477-37ob8i21396k6s1b20t9qogpem9mjb4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAImS93TQLfY-J1PygPsRCSX9VYRbS5Wyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12244949477-37ob8i21396k6s1b20t9qogpem9mjb4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
